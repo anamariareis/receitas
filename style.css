@@ -46,8 +46,11 @@ h1 {
     right: 0;
     background-color: var(--cinza-claro);
     width: 200px;
-    height: 100vh;
+    max-width: 100%;
     padding-top: 50px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav-menu ul {
@@ -67,7 +70,7 @@ h1 {
 }
 
 .menu-active .nav-menu {
-    display: block;
+    display: flex;
 }
 
 .menu-active .hamburger .bar:nth-child(1) {

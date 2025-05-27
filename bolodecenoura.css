@@ -6,10 +6,16 @@
 }
 
 header{
-     background-color: var(--rosa-claro);
-    color: var(--branco);
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+       background-color: var(--rosa-claro);
+    background-size: cover; 
+    background-position: center; 
+    padding: 50px 20px; 
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    font-size: 27px;
+    border-radius: 7px;
+}
+
+header p{
+    font-size: 21px;
 }

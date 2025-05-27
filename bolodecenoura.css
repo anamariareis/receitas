@@ -1,0 +1,15 @@
+:root{
+    --rosa-claro: #F2A7D4;
+    --cinza-claro: #D3D3D3;
+    --branco: #ffff; 
+
+}
+
+header{
+     background-color: var(--rosa-claro);
+    color: var(--branco);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

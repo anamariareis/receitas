@@ -26,3 +26,7 @@ header p{
     height: 100vh
 
 }
+
+img.{
+    size: 10px;
+}

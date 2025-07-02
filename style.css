@@ -8,11 +8,10 @@
 
 header {
     background-color: var(--rosa-claro);
-    color: var(--branco);
-    padding: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+  justify-content: center; 
+  align-items: center;  
+  height: 100px;   
 }
 
 h1 {

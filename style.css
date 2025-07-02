@@ -8,6 +8,7 @@
 
 header {
     background-color: var(--rosa-claro);
+    color: var(--branco);
     display: flex;
   justify-content: center; 
   align-items: center;  

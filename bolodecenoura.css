@@ -108,3 +108,26 @@ label:hover {
   line-height: 1.6;
   font-size: 16px;
 }
+
+label {
+  display: block;
+  padding: 8px 12px;
+  border: 1px solid var(--cinza-claro);
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+label:hover {
+  background-color: #fce7f3;
+  transform: scale(1.02);
+}
+
+
+.checked {
+  text-decoration: line-through;
+  opacity: 0.6;
+  transition: all 0.4s ease;
+}

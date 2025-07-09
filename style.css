@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
 
 :root{
     --rosa-claro: #F2A7D4;
@@ -18,7 +18,7 @@ header {
 
 h1 {
     margin: 0;
-    font-family: 'Rye';
+    font-family: 'Fascinate Inline';
     font-size: 65px;
 }
 

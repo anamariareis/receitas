@@ -30,9 +30,30 @@
     <li><label><input type="checkbox" onclick="toggleCheck(this)"> 3 claras de ovo</label></li>
     <li><label><input type="checkbox" onclick="toggleCheck(this)"> 3 colheres (sopa) açúcar </label></li>
     <li><label><input type="checkbox" onclick="toggleCheck(this)"> Raspas de 2 limões (opcional) </label></li>
-
-
     </div>
+
+    
+  <script>
+    function toggleCheck(checkbox) {
+      const label = checkbox.parentElement;
+      if (checkbox.checked) {
+        label.classList.add("checked");
+      } else {
+        label.classList.remove("checked");
+      }
+    }
+  </script>
+
+<div class="preparo fade-in fade-delay-3">
+    <h6> Modo de Preparo </h6>
+    <p>
+        1- Triture os biscoitos de maisena
+    </p>
+    <p>
+        2- misture a marguarina aos biscoitos
+    </p>
+
+</div>
 
     </main>
     

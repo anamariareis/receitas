@@ -43,6 +43,48 @@ h1 {
     transition: transform 0.3s ease;
 }
 
+.nav-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--cinza-claro);
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin: 15px 0;
+}
+
+.nav-menu a {
+    color: var(--rosa-claro);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.menu-active .nav-menu {
+    display: block;
+}
+
+.menu-active .hamburger .bar:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+
+.menu-active .hamburger .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-active .hamburger .bar:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
 
 .recipes-section {
   padding: 40px;
